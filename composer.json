@@ -1,0 +1,31 @@
+{
+    "name": "francoischaumont/php-app-skeleton",
+    "description": "Skeleton code base for php app development",
+    "authors": [
+        {
+            "name": "Francois Chaumont",
+            "email": "funcois@outlook.com"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/FrancoisChaumont/dependency-injector.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/FrancoisChaumont/log.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "hassankhan/config": "^1.0",
+        "francoischaumont/log": "^1.1",
+        "francoischaumont/dependency-injector": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FC\\Skeleton\\": "src/"
+        }
+    }
+}
