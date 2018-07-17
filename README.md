@@ -1,4 +1,11 @@
 # PHP APP SKELETON - Skeleton code base for php app development
+
+![GitHub release](https://img.shields.io/github/release/FrancoisChaumont/php-app-skeleton.svg)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/FrancoisChaumont/php-app-skeleton/issues)
+[![GitHub issues](https://img.shields.io/github/issues/FrancoisChaumont/db.svg)](https://github.com/FrancoisChaumont/php-app-skeleton/issues)
+[![GitHub stars](https://img.shields.io/github/stars/FrancoisChaumont/db.svg)](https://github.com/FrancoisChaumont/php-app-skeleton/stargazers)
+![Github All Releases](https://img.shields.io/github/downloads/FrancoisChaumont/php-app-skeleton/total.svg)
+
 PHP package to serve as a code base to start new project development.
 
 ## Getting started
