@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f477bcb436973806f6fb8684b2ef7dd",
+    "content-hash": "6ee9e2fcb134ef33e3b3cf01d8cc6f36",
     "packages": [
         {
             "name": "francoischaumont/dependency-injector",
@@ -33,12 +33,39 @@
             "time": "2018-07-10T01:46:02+00:00"
         },
         {
+            "name": "francoischaumont/helpers",
+            "version": "v1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FrancoisChaumont/helpers.git",
+                "reference": "61303fa57c9615307c103863ca749abd45a92db5"
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FC\\Helpers\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Francois Chaumont",
+                    "email": "funcois@outlook.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Various helper functions gathered under helper classes for convenience of use and access",
+            "time": "2018-10-04T20:08:20+00:00"
+        },
+        {
             "name": "francoischaumont/log",
-            "version": "v1.1",
+            "version": "v1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FrancoisChaumont/log.git",
-                "reference": "dd868c0049329a4541a4c0f111a13ee9655604eb"
+                "reference": "53d3f0385e48e9ce594511213acb6bb703b8005a"
             },
             "require": {
                 "monolog/monolog": "^1.23",
@@ -57,20 +84,20 @@
                 }
             ],
             "description": "Write logs using Monolog library",
-            "time": "2018-07-08T08:52:27+00:00"
+            "time": "2018-07-21T23:40:13+00:00"
         },
         {
             "name": "hassankhan/config",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hassankhan/config.git",
-                "reference": "2065b1ff1e937dd93f72073667be59dcc53e6966"
+                "reference": "930556337783acfd95bde723354119178db01d10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hassankhan/config/zipball/2065b1ff1e937dd93f72073667be59dcc53e6966",
-                "reference": "2065b1ff1e937dd93f72073667be59dcc53e6966",
+                "url": "https://api.github.com/repos/hassankhan/config/zipball/930556337783acfd95bde723354119178db01d10",
+                "reference": "930556337783acfd95bde723354119178db01d10",
                 "shasum": ""
             },
             "require": {
@@ -80,10 +107,10 @@
                 "phpunit/phpunit": "~4.0",
                 "scrutinizer/ocular": "~1.1",
                 "squizlabs/php_codesniffer": "~2.2",
-                "symfony/yaml": "~2.5"
+                "symfony/yaml": "~3.4"
             },
             "suggest": {
-                "symfony/yaml": "~2.5"
+                "symfony/yaml": "~3.4"
             },
             "type": "library",
             "autoload": {
@@ -115,7 +142,7 @@
                 "yaml",
                 "yml"
             ],
-            "time": "2018-03-31T13:21:58+00:00"
+            "time": "2018-08-22T14:18:52+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -246,7 +273,11 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "francoischaumont/log": 0,
+        "francoischaumont/helpers": 0,
+        "francoischaumont/dependency-injector": 0
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
