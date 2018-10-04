@@ -2,6 +2,7 @@
 
 return [
     'exec-profile' => 'prod',
+    'memory-limit' => '2G',
     'display-errors' => false,
     'error-level' => E_ALL,
 
@@ -19,6 +20,10 @@ return [
     'log-channel-name' => 'app',
     'log-file-path' => __DIR__ . '/logs/app.log',
     'log-date-format' => "Y-m-d H:i:s",
-    'log-output-format' => "[%datetime%] %channel%.%level_name%: %message%\n"
+    'log-output-format' => "[%datetime%] %channel%.%level_name%: %message%\n",
+
+    // notifications
+    'pushover-email' => '',
+    'pushover-subject' => ''
 ];
 
