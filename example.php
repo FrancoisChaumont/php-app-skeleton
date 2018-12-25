@@ -79,7 +79,7 @@ try {
     // send notification
     if (isset($receiver) && \FC\Helpers\ValidationHelper::checkEmailFormat($receiver)) {
         $notifications[] = $e->getMessage();
-        $text = $tempFolder . "/$outputFileName" . "\n\n" . implode("\n", $notifications);
+        $text = implode("\n", $notifications);
         PushOver::pushNotification($receiver, $subject, $text);
     }
 }
