@@ -1,4 +1,4 @@
-# DEPRECATED
+# ⛔ DEPRECATED ⛔
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/) 
 
 PHP APP SKELETON - Skeleton code base for php app development
