@@ -1,4 +1,7 @@
-# PHP APP SKELETON - Skeleton code base for php app development
+# DEPRECATED
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/) 
+
+PHP APP SKELETON - Skeleton code base for php app development
 
 ![GitHub release](https://img.shields.io/github/release/FrancoisChaumont/php-app-skeleton.svg)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/FrancoisChaumont/php-app-skeleton/issues)
